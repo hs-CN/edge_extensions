@@ -1,6 +1,6 @@
 {
     "name": "__MSG_name__",
-    "description": "https://github.com/hs19931202/edge_extensions.git",
+    "description": "https://github.com/hs-CN/edge_extensions",
     "version": "0.1",
     "manifest_version": 2,
     "background": {
