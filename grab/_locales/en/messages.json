@@ -1,0 +1,14 @@
+{
+    "name": {
+        "message": "Grab Element"
+    },
+    "description": {
+        "message": "Grab the desired content from the current page"
+    },
+    "copy_all_images_url": {
+        "message": "Copy All Images URL"
+    },
+    "found_images": {
+        "message": "Found images"
+    }
+}

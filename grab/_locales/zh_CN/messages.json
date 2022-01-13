@@ -1,0 +1,14 @@
+{
+    "name": {
+        "message": "抓取内容"
+    },
+    "description": {
+        "message": "从网页中抓取你想要的内容"
+    },
+    "copy_all_images_url": {
+        "message": "复制所有图片路径"
+    },
+    "found_images": {
+        "message": "发现图片"
+    }
+}
