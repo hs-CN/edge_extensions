@@ -2,19 +2,18 @@
     "name": "__MSG_name__",
     "description": "https://github.com/hs-CN/edge_extensions",
     "version": "0.1",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "background": {
-        "scripts": [
-            "background.js"
-        ],
-        "persistent": false
+        "service_worker": "background.js"
     },
-    "browser_action": {
-        "default_title": "__MSG_name__",
-        "default_icon": "icon.png"
+    "action": {
+        "default_title": "__MSG_name__"
     },
     "permissions": [
         "sessions"
     ],
-    "default_locale": "en"
+    "default_locale": "en",
+    "icons": {
+        "128": "icon.png"
+    }
 }
