@@ -9,6 +9,11 @@
         "message": "Copy All Images URL"
     },
     "found_images": {
-        "message": "Found images"
+        "message": "Found $count images",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
     }
 }

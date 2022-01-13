@@ -21,5 +21,8 @@
             "run_at": "document_start"
         }
     ],
-    "default_locale": "zh_CN"
+    "default_locale": "zh_CN",
+    "icons": {
+        "128": "icon.png"
+    }
 }

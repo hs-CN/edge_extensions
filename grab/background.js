@@ -1,8 +1,6 @@
-const copy_all_images_url = chrome.i18n.getMessage("copy_all_images_url");
-
 chrome.contextMenus.create({
     id: "all_images",
-    title: copy_all_images_url
+    title: chrome.i18n.getUILanguage() == "zh-CN" ? "复制所有图片路径" : "Copy All Images URL"
 });
 
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {

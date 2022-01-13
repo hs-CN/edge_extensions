@@ -9,6 +9,11 @@
         "message": "复制所有图片路径"
     },
     "found_images": {
-        "message": "发现图片"
+        "message": "发现 $count 张图片",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
     }
 }
