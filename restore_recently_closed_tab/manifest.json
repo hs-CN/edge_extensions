@@ -1,6 +1,6 @@
 {
     "name": "__MSG_name__",
-    "description": "https://github.com/hs-CN/edge_extensions",
+    "description": "__MSG_name__",
     "version": "0.1",
     "manifest_version": 3,
     "background": {
@@ -12,7 +12,7 @@
     "permissions": [
         "sessions"
     ],
-    "default_locale": "en",
+    "default_locale": "zh_CN",
     "icons": {
         "128": "icon.png"
     }
