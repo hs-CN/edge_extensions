@@ -9,10 +9,9 @@ chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
             await navigator.clipboard.writeText(addresses.join("\n"));
 
             let info = chrome.i18n.getUILanguage() == "zh-CN" ? `发现 ${addresses.length} 张图片` : `Found ${addresses.length} images`
-
             let div_container = document.createElement("div");
             div_container.style.position = "fixed";
-            div_container.style.top = "10px";
+            div_container.style.bottom = "10px";
             div_container.style.width = "100%";
             div_container.style.textAlign = "center";
 
