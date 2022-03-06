@@ -1,7 +1,7 @@
 {
     "name": "__MSG_name__",
     "description": "__MSG_name__",
-    "version": "0.2",
+    "version": "0.3",
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
@@ -10,10 +10,18 @@
         "default_title": "__MSG_name__"
     },
     "permissions": [
-        "sessions"
+        "sessions",
+        "commands"
     ],
     "default_locale": "zh_CN",
     "icons": {
         "128": "icon.png"
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Alt+R"
+            }
+        }
     }
 }
